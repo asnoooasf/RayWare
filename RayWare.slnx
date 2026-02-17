@@ -1,0 +1,9 @@
+<Solution Description="RayWare Team">
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="RayWare/RayWare.csproj" Id="50273445-fb70-4309-824a-9fd2815f9113">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
