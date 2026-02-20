@@ -16,6 +16,7 @@ namespace RayWare
         private QuorumModule quorum;
         public Form1()
         {
+            bool isAttached = quorum.IsAttached();
             InitializeComponent();
             //velocity api
             quorum = new QuorumModule();
