@@ -23,7 +23,6 @@ namespace RayWare
         }
         private async void attachbtn_Click(object sender, EventArgs e)
         {
-            QuorumAPI.QuorumModule.SetAttachNotify("RayWare", "Attached successfully!");
             await quorum.AttachAPI();
         }
 
